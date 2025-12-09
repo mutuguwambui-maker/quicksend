@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickSend</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #0066ff; color: #fff; padding: 16px; font-size: 24px; font-weight: bold; text-align: center; }
+    .container { padding: 20px; }
+    .card { background: #fff; padding: 16px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    input, select { width: 100%; padding: 10px; margin-top: 8px; border-radius: 6px; border: 1px solid #ccc; }
+    button { background: #0066ff; padding: 12px 20px; border: none; color: #fff; border-radius: 6px; cursor: pointer; margin-top: 12px; }
+    button:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+<header>QuickSend Delivery Platform</header>
+<div class="container">
+
+  <!-- Shipment Form -->
+  <div class="card">
+    <h2>Create Shipment</h2>
+    <input placeholder="Sender Name" />
+    <input placeholder="Receiver Name" />
+    <input placeholder="Pickup Location" />
+    <input placeholder="Destination" />
+    <input placeholder="Package Type" />
+    <button>Create Shipment</button>
+  </div>
+
+  <!-- Payment Mockup -->
+  <div class="card">
+    <h2>Payment (Mockup)</h2>
+    <input placeholder="Amount" />
+    <select>
+      <option>M-Pesa</option>
+      <option>Card</option>
+    </select>
+    <button>Pay Now</button>
+  </div>
+
+  <!-- Authentication Mockup -->
+  <div class="card">
+    <h2>Login</h2>
+    <input placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button>Login</button>
+  </div>
+
+  <!-- Driver Dashboard -->
+  <div class="card">
+    <h2>Driver Dashboard</h2>
+    <p>Available Jobs:</p>
+    <button>Accept Job #1</button>
+  </div>
+
+  <!-- Admin Dashboard -->
+  <div class="card">
+    <h2>Admin Dashboard</h2>
+    <p>Manage shipments, payments, and users.</p>
+    <button>View All Shipments</button>
+  </div>
+
+</div>
+</body>
+</html>
